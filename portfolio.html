@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">Yeshwanth</a>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home" data-aos="fade-up">
+    <div class="home-img">
+      <img src="My Pic.jpg" alt="Profile Picture of Yeshwanth"/>
+    </div>
+    <div class="home-content">
+        <h1>Hi, it's <span>Yeshwanth</span></h1>
+        <h3 class="typing-text"><span></span></h3>
+        <div class="social-icons">
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="mailto:your-email@example.com"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+  <a href="Resume.pdf" download class="btn">Download CV</a>
+</div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" data-aos="fade-up">
+    <h2><i class="fa-solid fa-code"></i> Skills</h2>
+    <p>HTML<br>CSS<br>JavaScript<br>ReactJS<br>Git<br>Responsive Design</p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" data-aos="fade-up">
+    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+    <p>Master of Technology in Computer SCience<br>K L University</p>
+    <p>Bachelor of Technology in Mechanical Engineering<br>DJR College of Engineering and Technology</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" data-aos="fade-up">
+    <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
+    <p>Portfolio Website<br>Weather App<br>To-Do App<br>Calculator</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
+    <h2><i class="fa-solid fa-envelope"></i> Contact</h2>
+    <p>Email: yeshwanthmocharla14@gmail.com<br>LinkedIn | GitHub | Instagram</p>
+  </section>
+
+  <!-- Scripts -->
+  <script src="portfolio.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
